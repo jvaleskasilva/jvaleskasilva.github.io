@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color: #BB86FC;
+  background-color: #dbb2ff;
+  background-color: #F3E5F5;
+  background-color: #E1BEE7;
+  background-color: #6A1B9A;
+  background-color: #9575CD;
+  background-color: #B39DDB;
+  background-color: #ead1dc;
+  background-color: #D1C4E9;
+  background-color: #800080;
+  background-color: whitesmoke;
+
+  ::-moz-selection {
+    color: rgb(38, 17, 45);
+    background: #dbb2ff;
+  }
+  
+  ::selection {
+    color: rgb(38, 17, 45);
+    background: #dbb2ff;
+  }
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
