@@ -337,27 +337,67 @@ template {
   display: none;
 }
 
+/**
+ * Cores do projeto
+ */
+/**
+ * Sizes
+ */
 body {
+  align-items: center;
   background-color: #f9f9fa;
+  display: flex;
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
 }
 body ::-moz-selection {
-  color: #26112d;
   background-color: #d3cfd5;
+  color: #26112d;
 }
 body ::selection {
-  color: #26112d;
   background-color: #d3cfd5;
-}
-body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-family: "Lato", sans-serif;
-  color: black;
+  color: #26112d;
 }
 
 header {
-  background-color: #26112d;
-  height: 100vh;
-  width: 100vw;
+  color: #26112d;
+  border-left: 10px solid #26112d;
+  margin-left: 50px;
+  padding-left: 50px;
+  width: 70vw;
+}
+header h1 {
+  font-size: 55px;
+  line-height: 65px;
+  margin: 0;
+  font-weight: 700;
+}
+header p {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+header a {
+  color: #26112d;
+  font-size: 20px;
+  margin-right: 15px;
+  text-decoration: none;
 }
 
-/*# sourceMappingURL=/style.5d3ad0c4.css.map */
+@media (max-width: 600px) {
+  header {
+    margin-left: 0;
+    padding: 20px;
+    width: 1000vw;
+  }
+  header h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 10px;
+    font-weight: 700;
+  }
+}
+
+/*# sourceMappingURL=/script.c10090b4.css.map */
